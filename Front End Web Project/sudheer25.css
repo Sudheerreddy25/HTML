@@ -82,7 +82,8 @@ display:none;
     text-align:center;
     border-radius: 22px;
     border:2px solid aliceblue;
-    //transform:translate(-150%,20%);//
+    //transform:translate(10%,10%);//
+    transition-delay: 0;
 }
 .grid2
 {
@@ -97,6 +98,7 @@ display:none;
     text-align:center;
     border-radius: 22px;
     border:2px solid aliceblue;
+    transition-delay: 0s;
 }
 .grid3
 {
@@ -111,13 +113,24 @@ display:none;
     text-align:center;
     border-radius: 22px;
     border:2px solid aliceblue;
+    transition-delay: 0s;
 }
 .grid1:hover,.grid2:hover,.grid3:hover
 {
     background-color: aliceblue;
     transition: 0.6s;
 }
-.grid1 i,.grid2 i,.grid3 i
+.grid1 i
+{
+    color:darkorange;
+    font-size: 60px;
+}
+.grid2 i
+{
+    color:darkorange;
+    font-size: 60px;
+}
+.grid3 i
 {
     color:darkorange;
     font-size: 60px;
