@@ -2,14 +2,30 @@
 <html>
     <head>
         <link rel="stylesheet" href="sudheer28.css">
+        <script>
+        function validate()
+            {
+                if(isNaN(frm.phone.value))
+                {
+                    alert("invalid phone number");
+                    return false;
+                }
+                if((frm.phone.value).length<10)
+                    {
+                        return false;
+                    }
+            }
+    </script>
+        <script>
+        </script>
     </head>
     <body>
         <div>
-            <form action="OnMobRec.html">
+            <form onsubmit="validate()" action="OnMobRec.html" name="frm">
                 <p>Registration</p>
-                <input type="text" placeholder="Phone Number" required>
+                <input type="text" placeholder="Phone Number" name="phone" required>
                 <input type="email" placeholder="Email" required>
-                <input type="submit" onclick="L()" value="Register">
+                <input type="submit" onclick="Login()" value="Register">
             </form>
         </div>
     </body>

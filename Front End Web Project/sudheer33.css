@@ -57,6 +57,7 @@ div select[type="dropdown"]
     text-align: center;
     border-radius: 15px;
     outline:none;
+    font-family: cursive;
     background-color: aliceblue;
 }
 div p

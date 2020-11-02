@@ -40,7 +40,7 @@ div
     width:300px;
 	padding:40px;
 	position:absolute;
-    top:10%;
+    top:15%;
     left:35.8%;
     background-color:dimgrey;
     border-top-left-radius:30px;
@@ -57,6 +57,7 @@ div select[type="dropdown"]
     text-align: center;
     border-radius: 15px;
     outline:none;
+    font-family:cursive;
     background-color: aliceblue;
 }
 div select[type="dropdown1"]
@@ -69,13 +70,14 @@ div select[type="dropdown1"]
     text-align: center;
     border-radius: 15px;
     outline:none;
+    font-family:cursive;
     background-color: aliceblue;
 }
 radio
 {
     
 }
-div h2
+div p
 {
     text-align: center;
     color:aliceblue;
@@ -92,7 +94,8 @@ a
 {
     text-align: right;
     text-decoration: none;
-    padding-left: 80%;
-    padding-top: 60%;
-    
+    padding-left: 70%;
+    color: aliceblue;
+    font-family: Century Gothic;
+    font-size: 30px;
 }

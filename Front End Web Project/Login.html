@@ -3,12 +3,31 @@
     <head>
         <link rel="stylesheet" href="sudheer26.css">
         <a href="ONMOBREC.html">Home Page</a>
+        <script>
+        function validate()
+            {
+                var name=document.getElementById("id1").value;
+                if(isNaN(name))
+                {
+                    return true;
+                }
+                else{
+                    alert("name should not contain number");
+                    } 
+            }
+    </script>
+    <script>
+        function Login()
+        {
+            confirm("You want to Login.\nPress the Button!")
+        }
+        </script>
     </head>
     <body>
         <div class="nani">
-            <form>
+            <form action="OnMobRec.html" name="myform" onsubmit="validate()">
                 <p>Login</p>
-                <input type="text" name=""placeholder="username" required>
+                <input type="text" name=""placeholder="username" id="id1" required>
                 <input type="password" name=""placeholder="password" required>
                 <input type="submit" onclick="Login()" value="Login">
             </form>

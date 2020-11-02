@@ -194,3 +194,21 @@ nav b span1
     font-family:Gill Sans MT;
     font-size:40px; 
 }
+.grid
+{
+    color:aliceblue;
+    position:absolute;
+    padding: 10px;
+    top:90%;
+    left:28%;
+    font-size: 35px;
+    font-family:Gill Sans MT;
+}
+.grid span
+{
+    color:darkorange;
+}
+.grid span1
+{
+    color:darkorange;
+}

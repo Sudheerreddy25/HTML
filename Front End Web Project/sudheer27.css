@@ -33,7 +33,7 @@ div input[type="date"]
     outline:none;
     background-color: aliceblue;
 }
-div input[type="Submit"]
+div input[type="submit"]
 {
     background:none;
 	display:block;
